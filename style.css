@@ -1,4 +1,51 @@
 body {
   font-family: Arial, Helvetica, sans-serif;
-  text-align: center;
+}
+
+* {
+  text-decoration: none;
+}
+.navBar {
+  display: block;
+  background-color: azure;
+  font-family: "Josefin Sans";
+  padding-right: 20px;
+  padding-left: 20px;
+}
+.navDiv {
+  display: block;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.logo a {
+  font-size: 35px;
+  color: blue;
+}
+
+li {
+  list-style: none;
+  display: inline-block;
+}
+
+li a {
+  color: orange;
+  font-size: 18px;
+  font-weight: bold;
+  margin-right: 25px;
+}
+
+button {
+  background-color: azure;
+  margin-left: 10px;
+  border-radius: 10px;
+  border-color: blue;
+  padding: 10px;
+  width: 90px;
+}
+
+button a {
+  color: orange;
+  font-weight: bold;
+  font-size: 15px;
 }
